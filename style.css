@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.background{
+    background-color: rgb(39, 38, 38);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+.turn-on{
+    padding: 10px;
+    border-radius: 10%;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium';
+    border: 2px solid black;
+}
+
+.turn-off{
+    padding: 10px;
+    border-radius: 10%;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium';
+    border: 2px solid black;
+}
